@@ -14,10 +14,30 @@ body {
     padding: 20px;
 }
 
+.header {
+    text-align: right; /* 버튼을 우상단에 위치 */
+    margin-bottom: 40px; /* 버튼과 대제목 사이 간격 더 크게 설정 */
+}
+
+.cta-button {
+    background-color: #00BF6F; /* 버튼 배경색 */
+    color: white; /* 버튼 글자색 */
+    padding: 10px 15px; /* 버튼 패딩 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+    font-weight: bold; /* 버튼 글씨 볼드 처리 */
+    border-radius: 5px; /* 버튼 둥근 모서리 */
+    font-size: 14px; /* 버튼 글자 크기 */
+}
+
+.cta-button:hover {
+    background-color: #008F55; /* 버튼 호버 시 배경색 변경 */
+}
+
 h1 {
     font-size: 24px; /* 대제목 크기 */
     text-align: center;
-    margin-bottom: 10px; /* 간격 조절 */
+    margin-top: 0; /* 대제목 위에 간격 제거 */
+    margin-bottom: 10px; /* 대제목 아래 간격 조절 */
 }
 
 .tabs {
